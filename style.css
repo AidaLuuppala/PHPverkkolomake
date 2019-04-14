@@ -1,0 +1,95 @@
+
+body {color: black;
+      background-color: white;
+      font-family: 'Nunito', sans-serif;
+    
+     -ms-hyphens:auto;
+     -webkit-hyphens:auto;
+      hyphens: auto;    
+     }
+
+section  a {color: #00007d;}
+
+section {text-align: center;
+		margin: auto;}
+
+h1 {font-size:24px;
+	color: #00007d;}
+
+h2 {font-size:24px;
+	color: #00007d;}
+
+p.etusivu {font-size:14px;
+	text-align: center;}
+	
+p {font-size:14px;
+	text-align: left;}
+	
+.center {margin: auto;
+	width: 60%;
+	display: inline-block;
+	display: flex;}
+	
+.left {
+	float: left;
+}
+
+nav a {color: white;
+	text-decoration: none;
+	background-color: #ff8000;
+	text-align: center;
+	display: inline-block;
+	padding: 5px;
+	width: 150px;
+	margin: 5px 5px;}
+
+div a {text-align: center;
+	text-decoration: none;}
+	
+nav a.active {color: white;
+	text-decoration: none;
+	background-color: #ffa64c;
+	text-align: center;
+	display: inline-block;
+	padding: 5px;
+	width: 10px;
+	margin: 5px 5px;}
+
+fieldset {margin: auto;
+	width:50%;
+	padding:10px;}
+	
+fieldset input {
+	margin-left: 25px;
+}
+
+.btn {margin: auto;
+	width:50%;}
+
+
+/*iso näyttö (kaikki muu mobile first)*/
+@media only screen and (min-width: 700px) { 
+
+.container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 1em;
+grid-auto-rows: minmax(100px, auto);
+align-items: center;
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.container2 {
+display: grid;
+grid-template-columns: 1fr 1fr 2fr;
+grid-gap: 1em;
+grid-auto-rows: minmax(30px, auto);
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+
+}

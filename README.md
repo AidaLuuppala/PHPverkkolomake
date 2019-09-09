@@ -1,2 +1,1 @@
-# PHPverkkolomake
-Verkkolomake lähetysten kirjauksia varten.
+# php-form
